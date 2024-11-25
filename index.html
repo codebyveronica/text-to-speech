@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to Speech</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="text-to-speech">
+    <h1>Text to Speech Converter</h1>
+    
+    <label for="voice"> Select a voice/lang:
+      <select id="voice"></select>
+    </label>
+    
+    <textarea id="text" placeholder="Write anything here..."></textarea>
+
+    <span class="hide">Please, write something to speech.</span>
+
+    <div class="button-control">
+      <button id="play"><i class="fa-solid fa-play"></i> Play</button>
+      <button id="pause"><i class="fa-solid fa-pause"></i> Stop</button>
+      <button id="reset"><i class="fa-solid fa-xmark"></i> Reset</button>
+    </div>
+  </div>
+</body>
+</html>
